@@ -41,7 +41,7 @@
 }
 
 .box:hover{
-    border: 2px solid #4aac04
+    border: 2px solid #4aac04;
 }
 
 .light-box{
@@ -54,4 +54,20 @@
     background-color: #0a0a0a;
     color: #ffffff;
     transition:0.3s;
+}
+
+#box-1,#box-2,#box-3,#box-4{
+    border-top: 4px solid black;
+}
+
+#box-4,#box-8,#box-12,#box-16{
+    border-right: 4px solid black;
+}
+
+#box-13,#box-14,#box-15,#box-16{
+    border-bottom: 4px solid black;
+}
+
+#box-1,#box-5,#box-9,#box-13{
+    border-left: 4px solid black;
 }
